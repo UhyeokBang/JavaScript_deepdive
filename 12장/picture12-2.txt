@@ -1,0 +1,13 @@
+1.함수 선언문
+function add(x,y){
+    return x + y;
+}
+2.함수 표현식
+var add = function (x,y){
+    return x + y;
+}
+3.Fucntion 생성자 함수
+var add = new Fucntion('x', 'y', 'return x + y');
+
+4.화살표 함수(ES6)
+var add = (x,y) => x + y;
