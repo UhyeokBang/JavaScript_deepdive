@@ -1,4 +1,4 @@
-/* Array.from 메서드를 활용한 배열 생성 */
+/* Array.from 메서드를 활용한 배열 생성 - 두번째 인수로 콜백함수를 전달 */
 
 // Array.from에 length만 존재하는 유사 배열 객체를 전달하면 undefined를 요소로 채운다.
 Array.from({ length: 3 }); // -> [undefined, undefined, undefined]
