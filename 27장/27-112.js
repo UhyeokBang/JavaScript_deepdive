@@ -1,3 +1,4 @@
+// filter 예제2
 class Users {
     constructor() {
       this.users = [
